@@ -1,0 +1,52 @@
+.proAll {
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 90%;
+}
+
+.proAll h1 {
+    font-weight: 700;
+    color: #00246b;
+}
+
+.proAll p {
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.productsCard {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.stock {
+    width: 25%;
+    color: green;
+    text-align: left;
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Small devices (landscape phones, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .proAll {
+        margin: 0 auto;
+        margin-top: 8rem;
+        width: 90%;
+    }
+
+    .proAll p {
+        font-size: 17px;
+    }
+
+    .productsCard {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+}

@@ -1,0 +1,89 @@
+/* styles for the navigation bar */
+#navbarku {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: all 1s;
+  z-index: 10;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.navbar-nav .nav-item a {
+  color: #777 !important;
+  font-size: 14px;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: #00246b !important;
+  transition: 1s;
+}
+
+#home .navbar-nav .nav-item .homeLink,
+#about .navbar-nav .nav-item .aboutLink,
+#how .navbar-nav .nav-item .howLink,
+#faq .navbar-nav .nav-item .faqLink,
+#services .navbar-nav .nav-item .servicesLink,
+#contact .navbar-nav .nav-item .contactLink {
+  color: #00246b !important;
+}
+
+.navbar-brand img {
+  width: 70px;
+  height: 50px;
+  margin-top: -4px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .navbar-nav .nav-item a {
+    font-size: 15px;
+  }
+
+  .navbar-brand img {
+    width: 70px;
+    height: 50px;
+    margin-top: -4px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #navbarku {
+    height: 50px;
+    padding: 35px 0px;
+  }
+
+  .navbar {
+    padding: 15px 17px;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 70px;
+  }
+
+  .navbar-nav .nav-item a {
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .dropdown-menu .dropdown-item {
+    margin-left: 0px !important;
+    font-size: 16px;
+  }
+
+  /* styles for the navigation bar */
+  .navbar-brand {
+    margin-left: 32px;
+  }
+
+  .navbar-brand img {
+    width: 70px;
+    height: 50px;
+    margin-top: -4px;
+  }
+}
